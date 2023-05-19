@@ -38,12 +38,12 @@ export default function HomePage() {
           Ciao <span className="inline-block origin-70 animate-wave">👋</span>{" "}
           sono{" "}
           <RoughNotation
-            type="bracket"
+            type="underline"
             brackets={["left", "right"]}
             animate
             animationDelay={800}
             show
-            strokeWidth={4}
+            strokeWidth={7}
             color="#E42F2F"
           >
             Giuppi
@@ -90,7 +90,7 @@ export default function HomePage() {
             type="box"
             animate
             show
-            padding={0}
+            padding={[0, 5]}
             animationDelay={4500}
             strokeWidth={4}
             brackets={["left", "right"]}
