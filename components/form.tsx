@@ -28,7 +28,7 @@ export const WaitingForm = ({
             name="name"
             type="text"
             required
-            className="w-full rounded-md border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
+            className="w-full rounded-md border border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
             placeholder="Nome"
           />
         </div>
@@ -41,7 +41,7 @@ export const WaitingForm = ({
             id="last"
             name="last"
             type="text"
-            className="w-full rounded-md border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
+            className="w-full rounded-md border border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
             placeholder="Cognome (opzionale)"
           />
         </div>
@@ -56,7 +56,7 @@ export const WaitingForm = ({
             type="email"
             autoComplete="email"
             required
-            className="w-full rounded-md border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
+            className="w-full rounded-md border border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-teal-500 focus:ring-teal-500 sm:max-w-xl"
             placeholder="La tua email"
           />
         </div>
